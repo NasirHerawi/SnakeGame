@@ -94,7 +94,7 @@ while True:
         time.sleep(1)
         head.goto(0, 0)
         head.direction = "Stop"
-        colors = random.choice(['red', 'blue', 'green'])
+        colors = random.choice(['red', 'yellow', 'green'])
         shapes = random.choice(['square', 'circle'])
         for segment in segments:
             segment.goto(1000, 1000)
